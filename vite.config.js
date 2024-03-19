@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [react()],
   css: {
     devSourcemap: true,
-    // base: '/weather/',
+    // ,
   },
+  base: '/weather/',
 });
