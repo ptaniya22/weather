@@ -1,0 +1,44 @@
+.week {
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 2px 5px 25px 0px black;
+    background: var(--background);
+    padding: 20px;
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    gap: 20px;
+    &__item {
+        border-radius: 10px;
+        background: rgba(71, 147, 255, 0.2);
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        &_day {
+            color: rgb(0, 0, 0);
+            font-size: 18px;
+            font-weight: 500;
+        }
+        &_date {
+            color: rgb(147, 156, 176);
+            font-size: 14px;
+        }
+        &_img {
+            width: 48px;
+            height: 48px;
+        }
+        &_temp {
+            color: rgb(0, 0, 0);
+            font-size: 18px;
+            font-weight: 500;
+        }
+        &_temp2 {
+            color: rgb(147, 156, 176);
+            font-size: 13px;
+        }
+        &_info {
+            color: rgb(147, 156, 176);
+            font-size: 13px;
+        }
+    }
+}
